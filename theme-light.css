@@ -1,0 +1,73 @@
+/* Light Mode Theme
+   ==========================================================================
+   Sophisticated neutral base with subtle warmth. Semantic colors are
+   refined and used sparingly. High contrast for readability. */
+:root {
+  /* Component Border Radius */
+  --radius: 0.5rem;
+
+  /* Gradient Colors */
+  --gradient-yellow: oklch(0.82 0.14 95);
+  --gradient-blue: oklch(0.6 0.13 245);
+  --gradient-red: oklch(0.62 0.19 30);
+  --gradient-green: oklch(0.65 0.13 160);
+
+  /* Base Neutrals */
+  --background: oklch(.9431 0 0); /* oklch(0.99 0.004 60); -> #ECECEC */
+  --foreground: oklch(.1344 0 0); /* oklch(0.15 0.005 60); -> #080808 */
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(.1344 0 0); /* oklch(0.15 0.005 60); -> #080808 */
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(.1344 0 0); /* oklch(0.15 0.005 60); -> #080808 */
+
+  /* Interactive Colors */
+  --primary: oklch(.4665 0.1021 162.17); /* oklch(0.45 0.11 250); -> #006B48 */
+  --primary-foreground: oklch(0.99 0 0);
+
+  --secondary: oklch(.9911 0 0); /* oklch(0.97 0.004 60); -> #FCFCFC */
+    --secondary-OnContainer: oklch(.9431 0 0); /* New Variable -> #ECECEC */
+  --secondary-foreground: oklch(.1326 0.0064 244.3); /* oklch(0.55 0.01 60); -> #06080A */
+
+  --accent: oklch(0.8 0.12 90);
+  --accent-foreground: oklch(0.2 0.005 60);
+
+  --secondary-accent: oklch(0.62 0.17 35);
+  --secondary-accent-foreground: oklch(0.99 0 0);
+
+  --destructive: oklch(0.55 0.21 25);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  /* Status Colors */
+  --success: oklch(0.58 0.16 155);
+  --success-foreground: oklch(0.99 0 0);
+
+  --info: oklch(0.6 0.12 245);
+  --info-foreground: oklch(0.99 0 0);
+
+  --warning: oklch(0.7 0.14 75);
+  --warning-foreground: oklch(0.99 0 0);
+
+  --error: oklch(0.58 0.22 20);
+  --error-foreground: oklch(0.99 0 0);
+
+  /* Muted States */
+  --muted: oklch(0.97 0.004 60);
+  --muted-foreground: oklch(0.55 0.01 60);
+
+  /* Borders & Inputs */
+  --border: oklch(0.8297 0 0); /* oklch(0.88 0.005 60); -> #C7C7C7*/
+  --input: oklch(0.88 0.005 60);
+  --ring: oklch(0.45 0.11 250);
+
+  /* Sidebar */
+  --sidebar: oklch(0.995 0.003 60);
+  --sidebar-foreground: oklch(0.2 0.005 60);
+  --sidebar-primary: oklch(0.45 0.11 250);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.97 0.004 60);
+  --sidebar-accent-foreground: oklch(0.2 0.005 60);
+  --sidebar-border: oklch(0.88 0.005 60);
+  --sidebar-ring: oklch(0.45 0.11 250);
+}

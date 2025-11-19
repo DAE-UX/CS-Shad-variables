@@ -1,0 +1,54 @@
+:root {
+  --nav-height: 60px;
+  --content-height: calc(100vh - var(--nav-height));
+}
+
+.content-height {
+  height: var(--content-height);
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Opera */
+}
+
+.timeline-connector {
+  height: calc(100% + 0.5rem);
+}
+
+.animate-slow {
+  animation-duration: 4s;
+}
+
+.status-gradient-bar {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--border) 20%,
+    var(--border) 80%,
+    transparent 100%
+  );
+}
+
+/* Dynamic opacity for chart bars
+   Used in CategoryBarChart to set opacity via CSS variable since
+   inline styles are not allowed and opacity values are computed dynamically */
+.bar-opacity {
+  opacity: var(--bar-opacity);
+}
+
+.dynamic-bg-color {
+  background-color: var(--bg-color);
+}
+
+.drawer-dynamic-width {
+  width: var(--drawer-width);
+}
+
+.header-popover_content {
+  height: var(--radix-popover-content-available-height);
+}

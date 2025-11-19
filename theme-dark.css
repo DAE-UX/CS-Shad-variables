@@ -1,0 +1,69 @@
+/* Dark Mode Theme
+   ==========================================================================
+   Rich neutral blacks with subtle warmth. Elevated surfaces are barely
+   lighter. Semantic colors glow against the dark base. */
+.dark {
+  /* Gradient Colors */
+  --gradient-yellow: oklch(0.82 0.14 95);
+  --gradient-blue: oklch(0.65 0.13 245);
+  --gradient-red: oklch(0.65 0.19 30);
+  --gradient-green: oklch(0.68 0.13 160);
+
+  /* Base Neutrals */
+  --background: oklch(0.18 0.008 60);
+  --foreground: oklch(0.98 0.003 60);
+
+  --card: oklch(0.22 0.008 60);
+  --card-foreground: oklch(0.98 0.003 60);
+
+  --popover: oklch(0.22 0.008 60);
+  --popover-foreground: oklch(0.98 0.003 60);
+
+  /* Interactive Colors */
+  --primary: oklch(0.65 0.18 250);
+  --primary-foreground: oklch(0.18 0.008 60);
+
+  --secondary: oklch(0.28 0.008 60);
+  --secondary-foreground: oklch(0.9 0.003 60);
+
+  --accent: oklch(0.85 0.15 90);
+  --accent-foreground: oklch(0.18 0.008 60);
+
+  --secondary-accent: oklch(0.7 0.2 35);
+  --secondary-accent-foreground: oklch(0.18 0.008 60);
+
+  --destructive: oklch(0.62 0.2 25);
+  --destructive-foreground: oklch(0.98 0.003 60);
+
+  /* Status Colors */
+  --success: oklch(0.67 0.15 155);
+  --success-foreground: oklch(0.18 0.008 60);
+
+  --info: oklch(0.65 0.18 245);
+  --info-foreground: oklch(0.18 0.008 60);
+
+  --warning: oklch(0.78 0.16 75);
+  --warning-foreground: oklch(0.18 0.008 60);
+
+  --error: oklch(0.65 0.21 20);
+  --error-foreground: oklch(0.98 0.003 60);
+
+  /* Muted States */
+  --muted: oklch(0.28 0.008 60);
+  --muted-foreground: oklch(0.6 0.01 60);
+
+  /* Borders & Inputs */
+  --border: oklch(0.32 0.01 60);
+  --input: oklch(0.32 0.01 60);
+  --ring: oklch(0.68 0.13 250);
+
+  /* Sidebar */
+  --sidebar: oklch(0.18 0.008 60);
+  --sidebar-foreground: oklch(0.9 0.003 60);
+  --sidebar-primary: oklch(0.68 0.13 250);
+  --sidebar-primary-foreground: oklch(0.18 0.008 60);
+  --sidebar-accent: oklch(0.24 0.008 60);
+  --sidebar-accent-foreground: oklch(0.9 0.003 60);
+  --sidebar-border: oklch(0.3 0.01 60);
+  --sidebar-ring: oklch(0.68 0.13 250);
+}
