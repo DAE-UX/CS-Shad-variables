@@ -76,10 +76,10 @@
     /* Other Colors */
     --hero-background: linear-gradient(90deg, oklch(0.3354 0.072159 163.3242), oklch(0.4665 0.102061 162.1699)); /* Used in hero buttons */
     --hero-foreground: oklch(0.99 0 0); /* Used in hero button text */
-    --navbar-accent-opacity: opacity: 0.45; /* Used in navbar for accent gradient */
-    --navbar-accent-gradient: background: linear-gradient(86deg, rgba(255, 255, 255, 0.00) 17.9%, #E4E4E4 26.37%, #D6E8FF 41.44%, #FFDCE9 51.06%, #E8D1FF 60.68%, #FFF 75.94%, rgba(255, 255, 255, 0.00) 86.88%); /* Used in navbar for accent gradient */
-    --navbar-accent-filter:filter: blur(40px); /* Used in navbar for accent gradient */
+    --navbar-accent-opacity: 0.45; /* Used in navbar for accent gradient */
+    --navbar-accent-gradient: linear-gradient(86deg, rgba(255, 255, 255, 0.00) 17.9%, #E4E4E4 26.37%, #D6E8FF 41.44%, #FFDCE9 51.06%, #E8D1FF 60.68%, #FFF 75.94%, rgba(255, 255, 255, 0.00) 86.88%); /* Used in navbar for accent gradient */
+    --navbar-accent-filter: blur(40px); /* Used in navbar for accent gradient */
 
     /*Other variables to be moved over*/
-    --text-accent: font-family: 'Roboto Mono','Consolas', 'Menlo', 'Monaco', monospace;
+    --text-accent: 'Roboto Mono','Consolas', 'Menlo', 'Monaco', monospace;
 }
