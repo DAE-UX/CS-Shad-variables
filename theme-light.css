@@ -70,4 +70,8 @@
   --sidebar-accent-foreground: oklch(0.2103 0.0059 285.89); /* oklch(0.2 0.005 60); -> #18181B */
   --sidebar-border: oklch(0.8297 0 0); /* oklch(0.88 0.005 60); -> #C7C7C7*/
   --sidebar-ring: oklch(0.3354 0.072159 163.3242); /* oklch(0.45 0.11 250); -> #00422C */
+
+    /* Other Colors */
+  --hero-background: linear-gradient(90deg, oklch(0.3354 0.072159 163.3242), oklch(0.4665 0.102061 162.1699)); /* Used in hero buttons */
+    --hero-foreground: oklch(0.99 0 0);
 }
