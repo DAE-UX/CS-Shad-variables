@@ -4,13 +4,14 @@
    refined and used sparingly. High contrast for readability. */
 :root {
   /* Component Border Radius */
-  --radius: 0.5rem;
+  --radius: 0.5rem; /* 8px */
 
   /* Gradient Colors */
-  --gradient-yellow: oklch(0.82 0.14 95);
-  --gradient-blue: oklch(0.6 0.13 245);
-  --gradient-red: oklch(0.62 0.19 30);
-  --gradient-green: oklch(0.65 0.13 160);
+  --gradient-yellow: oklch(0.82 0.14 95); /* Not used */
+  --gradient-blue: oklch(0.7389 0.1481 241.96);  /* Used at 50% */
+    --gradient-purple: oklch(0.894 0.0667 307.63); /* Used at 25% */
+  --gradient-red: oklch(0.6662 0.2237 35.33); /* Used at 0% */
+  --gradient-green: oklch(0.4665 0.102061 162.1699);  /* Used at 100% */
 
   /* Base Neutrals */
   --background: oklch(.9431 0 0); /* oklch(0.99 0.004 60); -> #ECECEC */
@@ -53,8 +54,9 @@
   --error-foreground: oklch(.1149 0 0); /*oklch(0.99 0 0); -> #050505 */
 
   /* Muted States */
-  --muted: oklch(0.9642 0 0); /* oklch(0.97 0.004 60); -> #F3F3F3 */
-  --muted-foreground: oklch(0.3942 0 0); /* oklch(0.55 0.01 60); -> #464646 */
+  --muted: oklch(0.9642 0 0); /* oklch(0.97 0.004 60); -> #F3F3F3 | Used for wells and disabled states */
+    --primary-muted: oklch(0.9829 0.024 167.12); /* New Variable -> #EBFFF6 | Used in buttons for hover states*/
+  --muted-foreground: oklch(0.3942 0 0); /* oklch(0.55 0.01 60); -> #464646 | Used for secondary text */
 
   /* Borders & Inputs */
   --border: oklch(0.8297 0 0); /* oklch(0.88 0.005 60); -> #C7C7C7*/
@@ -72,6 +74,12 @@
   --sidebar-ring: oklch(0.3354 0.072159 163.3242); /* oklch(0.45 0.11 250); -> #00422C */
 
     /* Other Colors */
-  --hero-background: linear-gradient(90deg, oklch(0.3354 0.072159 163.3242), oklch(0.4665 0.102061 162.1699)); /* Used in hero buttons */
-    --hero-foreground: oklch(0.99 0 0);
+    --hero-background: linear-gradient(90deg, oklch(0.3354 0.072159 163.3242), oklch(0.4665 0.102061 162.1699)); /* Used in hero buttons */
+    --hero-foreground: oklch(0.99 0 0); /* Used in hero button text */
+    --navbar-accent-opacity: opacity: 0.45; /* Used in navbar for accent gradient */
+    --navbar-accent-gradient: background: linear-gradient(86deg, rgba(255, 255, 255, 0.00) 17.9%, #E4E4E4 26.37%, #D6E8FF 41.44%, #FFDCE9 51.06%, #E8D1FF 60.68%, #FFF 75.94%, rgba(255, 255, 255, 0.00) 86.88%); /* Used in navbar for accent gradient */
+    --navbar-accent-filter:filter: blur(40px); /* Used in navbar for accent gradient */
+
+    /*Other variables to be moved over*/
+    --text-accent: font-family: 'Roboto Mono','Consolas', 'Menlo', 'Monaco', monospace;
 }
