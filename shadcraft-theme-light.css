@@ -1,0 +1,99 @@
+/* Shadcraft Light Mode Theme
+   ==========================================================================
+   shadcn/ui compatible theme file for Shadcraft with custom variables
+   Sophisticated neutral base with subtle warmth. Semantic colors are
+   refined and used sparingly. High contrast for readability. */
+
+:root {
+  /* Component Border Radius */
+  --radius: 0.5rem; /* 8px */
+
+  /* Base Neutrals - Standard shadcn/ui variables */
+  --background: oklch(.9431 0 0); /* #ECECEC */
+  --foreground: oklch(.1344 0 0); /* #080808 */
+
+  --card: oklch(.9824 0.0013 286.38); /* #F9F9FA */
+  --card-foreground: oklch(.1344 0 0); /* #080808 */
+
+  --popover: oklch(.9824 0.0013 286.38); /* #F9F9FA */
+  --popover-foreground: oklch(.1344 0 0); /* #080808 */
+
+  /* Interactive Colors - Standard shadcn/ui variables */
+  --primary: oklch(.4665 0.1021 162.17); /* #006B48 */
+  --primary-foreground: oklch(0.1326 0.0064 244.3); /* #06080A */
+
+  --secondary: oklch(.9911 0 0); /* #FCFCFC */
+  --secondary-foreground: oklch(.1326 0.0064 244.3); /* #06080A */
+
+  --accent: oklch(0.9731 0.0262 159.6); /* #E8FCF0 */
+  --accent-foreground: oklch(0.2103 0.0059 285.89); /* #18181B */
+
+  --destructive: oklch(0.6416 0.2236 26.24); /* #F73B3B */
+  --destructive-foreground: oklch(.1149 0 0); /* #050505 */
+
+  /* Muted States - Standard shadcn/ui variables */
+  --muted: oklch(0.9642 0 0); /* #F3F3F3 */
+  --muted-foreground: oklch(0.3942 0 0); /* #464646 */
+
+  /* Borders & Inputs - Standard shadcn/ui variables */
+  --border: oklch(0.8297 0 0); /* #C7C7C7 */
+  --input: oklch(0.88 0.005 60);
+  --ring: oklch(0.3354 0.072159 163.3242); /* #00422C */
+
+  /* Sidebar - Standard shadcn/ui variables */
+  --sidebar: oklch(0.995 0.003 60);
+  --sidebar-foreground: oklch(0.2 0.005 60);
+  --sidebar-primary: oklch(.4665 0.1021 162.17); /* #006B48 */
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.97 0.004 60);
+  --sidebar-accent-foreground: oklch(0.2103 0.0059 285.89); /* #18181B */
+  --sidebar-border: oklch(0.8297 0 0); /* #C7C7C7 */
+  --sidebar-ring: oklch(0.3354 0.072159 163.3242); /* #00422C */
+
+  /* Chart Colors - Standard shadcn/ui variables */
+  --chart-1: oklch(.4665 0.1021 162.17); /* Primary green */
+  --chart-2: oklch(0.7048 0.1918 304.89); /* Secondary accent purple */
+  --chart-3: oklch(0.8165 0.1098 233.62); /* Info blue */
+  --chart-4: oklch(0.9104 0.1726 98.68); /* Warning yellow */
+  --chart-5: oklch(0.7039 0.1915 37.13); /* Error orange */
+
+  /* Extended Status Colors - Custom variables */
+  --success: oklch(0.9009 0.1007 157.22); /* #A5F3C4 */
+  --success-foreground: oklch(.1149 0 0); /* #050505 */
+
+  --info: oklch(0.8165 0.1098 233.62); /* #75CFFF */
+  --info-foreground: oklch(.1149 0 0); /* #050505 */
+
+  --warning: oklch(0.9104 0.1726 98.68); /* #FFE23D */
+  --warning-foreground: oklch(.1149 0 0); /* #050505 */
+
+  --error: oklch(0.7039 0.1915 37.13); /* #ff6A3D */
+  --error-foreground: oklch(.1149 0 0); /* #050505 */
+
+  /* Additional Custom Interactive Colors */
+  --secondary-accent: oklch(0.7048 0.1918 304.89); /* #BC7BFE */
+  --secondary-accent-foreground: oklch(.1149 0 0); /* #050505 */
+
+  /* Custom Muted Variants */
+  --primary-muted: oklch(0.9829 0.024 167.12); /* #EBFFF6 */
+  --secondary-OnContainer: oklch(.9431 0 0); /* #ECECEC */
+
+  /* Gradient Colors - Custom variables */
+  --gradient-yellow: oklch(0.82 0.14 95);
+  --gradient-blue: oklch(0.7389 0.1481 241.96);
+  --gradient-purple: oklch(0.894 0.0667 307.63);
+  --gradient-red: oklch(0.6662 0.2237 35.33);
+  --gradient-green: oklch(0.4665 0.102061 162.1699);
+
+  /* Hero Components - Custom variables */
+  --hero-background: linear-gradient(90deg, oklch(0.3354 0.072159 163.3242), oklch(0.4665 0.102061 162.1699));
+  --hero-foreground: oklch(0.99 0 0);
+
+  /* Navbar - Custom variables */
+  --navbar-accent-opacity: 0.45;
+  --navbar-accent-gradient: linear-gradient(86deg, oklch(1 0 0 / 0%) 17.9%, oklch(0.9189 0 0) 26.37%, oklch(0.9247 0.0368 254.56) 41.44%, oklch(0.9272 0.0421 353.56) 51.06%, oklch(0.894 0.0667 307.63) 60.68%, oklch(1 0 0) 75.94%, oklch(1 0 0 / 0%) 86.88%);
+  --navbar-accent-filter: blur(40px);
+
+  /* Typography - Custom variables */
+  --text-accent: 'Roboto Mono','Consolas', 'Menlo', 'Monaco', monospace;
+}
